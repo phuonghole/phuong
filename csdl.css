@@ -1,0 +1,76 @@
+body{
+	margin:0;
+	padding:0;
+	background-image:url("https://scontent.fhan2-6.fna.fbcdn.net/v/t1.0-9/87797891_142046880608483_1307072330446405632_o.jpg?_nc_cat=104&ccb=2&_nc_sid=730e14&_nc_ohc=KfPCqiIm2RYAX_JN6Su&_nc_ht=scontent.fhan2-6.fna&oh=58a23a218a2bb3504e4c9dac49c26ff0&oe=5FF6399F");
+	font-family:arial, sans-serif;
+	background-size:cover;
+	font-size:14px;
+}
+.loginbox{
+	height:30%px;
+	width:480px;
+	padding:70px 30px;
+	color:white;
+	background-color:black;
+	top:50%;
+	right:50%;
+	position:absolute;
+	transform:translate(-50%,-50%);
+	box-sizing:border-box;
+	
+}
+img.avata{
+	margin-left:180px;
+	margin-top:-40px;
+	height:100px;
+	width:100px;
+	position:absolute;
+	border-radius:50%;
+	padding:0;
+}
+.textred{
+	font-size:22px;
+	color:white;
+	margin:0;
+	padding:0 0 20px;
+	text-align:center;
+}
+.loginbox p{
+	margin:0;
+	color:white;
+	padding:0;
+	text-size:bold;
+	
+}
+.loginbox input[type="text"],.loginbox input[type="password"]{
+	border:none;
+	border-bottom: 1px solid white;
+	background:transparent;
+	outline:none;
+	color:white;
+	background-color:black;
+	height:40px;
+}
+.loginbox input[type="submit"]{
+	outline:none;
+	color:white;
+	background-color:red;
+	border-radius:20px;
+	border:none;
+	height:40px;
+	font-size:18px;
+}
+.loginbox input[type="submit"]:hover{
+	color:yellow;
+	cursor:pointer;
+	background:gray;
+}
+.loginbox a{
+	text-decoration:none;
+	font-size:17px;
+	color:green;
+	line-height:20px;
+}
+.loginbox a:hover{
+	color:black;
+}
